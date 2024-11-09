@@ -1,0 +1,44 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleFashion Store Registrationtitle
+    link rel=stylesheet href=style.css
+head
+body
+    div class=registration-container
+        h2Lifestyle Registrationh2
+        form id=registrationForm action=# method=post onsubmit=return validateForm()
+            div class=form-group
+                label for=fullnameFull Namelabel
+                input type=text id=fullname name=fullname placeholder=Enter your full name required
+            div
+            div class=form-group
+                label for=emailEmaillabel
+                input type=email id=email name=email placeholder=Enter your email required
+            div
+            div class=form-group
+                label for=phonePhone Numberlabel
+                input type=tel id=phone name=phone placeholder=Enter your phone number required
+            div
+            div class=form-group
+                label for=addressAddresslabel
+                textarea id=address name=address placeholder=Enter your address rows=3 requiredtextarea
+            div
+            div class=form-group
+                label for=passwordPasswordlabel
+                input type=password id=password name=password placeholder=Enter your password required
+            div
+            div class=form-group
+                label for=confirmPasswordConfirm Passwordlabel
+                input type=password id=confirmPassword name=confirmPassword placeholder=Re-enter your password required
+            div
+            div class=form-group
+                button type=submitRegisterbutton
+            div
+        form
+    div
+    script src=script.jsscript
+body
+html
